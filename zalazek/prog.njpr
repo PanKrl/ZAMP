@@ -1,0 +1,21 @@
+#define PRZESUNIECIE_1 40
+#define SZYBKOSC_1 20
+
+#define ZBIOR_PREZSTRZENI(Szybkosc, przesun) \
+  poczatek bloku
+    move Prost_1 SZYBKOSC_1 PRZESUNIECIE_1			 \
+    move Prost_2 SZYBKOSC_1 PRZESUNIECIE_1			 \
+    move Prost_3 SZYBKOSC_1 PRZESUNIECIE_1			 \
+    move Prost_4 SZYBKOSC_1 PRZESUNIECIE_1			 \
+   koniec bloku 
+   
+   
+ //
+ //    Przesuniecie
+ //
+   
+   
+ poczatek bloku
+   move /*Szybkosc*/ Prost_1 SZYBKOSC_1 /*Przesuniecie*/PRZESUNIECIE_1
+   move Prost_2 SZYBKOSC_1 PRZESUNIECIE_1
+ koniec bloku 
